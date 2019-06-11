@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="utf-8">
+    <title>Creative Limited</title>
+    <link href="main.css" rel="stylesheet" />
+    <style>
+        .contactform input{
+            width: 75%;
+            
+        }
+    </style>
+</head>
+<!--==================== BODY !!!! ==================-->
+
+<body align="center">
+    <!--HEAD AND NAV FOR ALL PAGES - BEGIN-->
+    <header>
+        <h1 class="brand"><span class="logo">CL</span>Creative Limited</h1>
+    </header>
+    <div class="menubar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="register.php">Sign Up / Login</a></li>
+            <li>
+                <form method="post" action="search.php?go" style="float:right;">
+                    <input type="text" name="name" style="width:150px; margin: 2px 5px 2px 0px;">
+                    <input type="submit" name="submit" value="Search" style="width:100px; padding:5px 0px; margin: 2px 5px 2px 0px;">
+                </form>
+            </li>
+        </ul>
+    </div>
+    <!--HEAD AND NAV FOR ALL PAGES - END-->
+    <br><br><br><br><br><br><br><br><br>
+    <container class="contactform">
+        <form action="pro.php" autocomplete="off" method="post">
+            <fieldset id="contactfrom1">
+                <legend>Personal information:</legend>
+                Name:<br>
+                <input type="text" name="name" placeholder="John" required><br>
+                Email: <br>
+                <input type="text" name="email" placeholder="email@example.com" required> <br><br>
+                Message:
+                <textarea name="message" id="subject" style="height:200px" placeholder="your message.." maxlength="1000" required></textarea>
+                <br><br>
+                <input type="submit" value="Submit"><br><br>
+            </fieldset>
+        </form>
+    </container>
+    <h2 class="bodyh2" style="clear:left;">Our Location</h2>
+    <div class="address">
+        <p style="text-align:left">Please contact Kamal Thapa at the following address if you want to participate:</p>
+        <p style="text-align:left; color: #444"><b>kamal@cl.co.uk</b></p>
+        <p style="text-align:left">For general enquiry, please make use of the following details:</p>
+        <address>
+            40 PARK VIEW <br>
+            ACTON, LONDON<br>
+            W4 9PT<br>
+            CALL US:<br>
+            0205 1234567<br>
+            EMAIL: <br>
+            INFO@CL.CO.UK
+        </address>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19858.769349437443!2d-0.27065435!3d51.5252103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1522345553721" width="65%" height="500" frameborder="0" allowfullscreen> Our Location</iframe>
+    <!--FOOTER COMMON TO ALL PAGES -->
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <h5><small>&copy; CL 2018.</small></h5>
+    </footer>
+</body>
+
+</html>
