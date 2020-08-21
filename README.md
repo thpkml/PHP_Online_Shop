@@ -3,8 +3,10 @@ A guide to make a simple PHP and MySQL based online shop.
 ## What
 The repository contains all the code required in order to build your own online shop from scratch.  
 The features include:  
-- Front end for customers
+- Front end for shopping
+- Customer registration
 - Paypal payment gateway integration
+- Admin registration
 - Admin backend to manage items, prices, orders and people
 ## Why
 There are tons of readymade solutions out there that provide a lot of ecommerce features out of the box.  
