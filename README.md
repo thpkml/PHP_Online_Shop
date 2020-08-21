@@ -18,5 +18,5 @@ It is also aimed at intermediate PHP developers who are looking for a fully cust
 Feel free to use the codes as you like. Share if someone needs it.  
 You are welcome to clone the repo (I have even left the node_modules intact, sorry GitHub),  
 But if you are new to PHP development -  
-please read a little more about how to launch a PHP application and the system prerequisites. 
+please read a little more about how to launch a PHP application and the system prerequisites.  
 **MIT License**
