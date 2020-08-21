@@ -21,4 +21,13 @@ Feel free to use the codes as you like. Share if someone needs it.
 You are welcome to clone the repo (I have even left the node_modules intact, sorry GitHub),  
 But if you are new to PHP development -  
 please read a little more about how to launch a PHP application and the system prerequisites.  
+Assuming that you have e.g. PHP and MySQL set up in your MacOS (XAMPP for Windows): 
+- clone the repo
+- use the .sql files to populate your database OR create one yourself
+- update config.php and/or config1.php files to match your database credentials
+- start your MySQL Server
+- `php -S localhost:9000` on your command line to start PHP 
+- enter http://localhost:9000/register.php on your browser
+- Viola! you should be able to see the application launch as shown
+![alt text](./images/start.png)
 **MIT License**
