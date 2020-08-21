@@ -1,9 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
+/* hint for pw - adw */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'adgjmptw');
+define('DB_PASSWORD', 'Use_Your_Password');
 define('DB_NAME', 'CL');
  
 /* Attempt to connect to MySQL database */
