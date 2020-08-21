@@ -1,7 +1,7 @@
 <?php
     $servername="localhost";
     $username="root";
-    $password="adgjmptw";
+    $password="Use_Your_Password";
     $dbname="CL";
 //connect to the database
 //1. create connection
